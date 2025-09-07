@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#171B1E</color>
+    <color name="cardBg">#1E1E2C</color>
+    <color name="title">#FFFFFF</color>
+    <color name="label">#B7C0CC</color>
+    <color name="inputStroke">#3A4452</color>
+    <color name="inputText">#E6EAF0</color>
+    <color name="btnGrey">#8E8E8E</color>
+    <color name="divider">#2A3340</color>
+    <color name="googleText">#101010</color>
+    <color name="primaryBlue">#5BC0F8</color>
+</resources>
