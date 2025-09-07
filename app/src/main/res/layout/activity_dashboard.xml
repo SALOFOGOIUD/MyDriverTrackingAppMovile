@@ -54,33 +54,33 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="16dp"
             android:gravity="center"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:orientation="vertical">
 
             <!-- Icono -->
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginBottom="8dp"
+                android:src="@drawable/outline_airport_shuttle_24"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
 
-                android:src="@drawable/outline_airport_shuttle_24" />
+            android:layout_marginBottom="8dp"/>
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Car Prueba"
-                android:textColor="@android:color/white"
+                android:text="Carro"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@android:color/white" />
 
             <!-- Placa o detalle -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
-                android:text="ABC-123"
+                android:text="ABC-123
                 android:textColor="#B0B0B0"
                 android:textSize="14sp" />
 
@@ -88,27 +88,27 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/btnEdit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:backgroundTint="#1976D2"
                     android:text="Editar"
                     android:textAllCaps="false"
-                    android:textColor="@android:color/white" />
+                    android:backgroundTint="#1976D2"
+                    android:textColor="@android:color/white"
+                    android:layout_marginEnd="8dp"/>
 
                 <Button
                     android:id="@+id/btnDelete"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="#1976D2"
                     android:text="Eliminar"
                     android:textAllCaps="false"
-                    android:textColor="@android:color/white" />
+                    android:backgroundTint="#1976D2"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -118,11 +118,11 @@
 
     <Button
         android:id="@+id/btnLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="157dp"
+        android:layout_height="87dp"
         android:text="Cerrar sesión"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="632dp" />
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="557dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
